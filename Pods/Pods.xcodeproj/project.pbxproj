@@ -7,57 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83ECFC7344DF87AFC1B8EEAAD6C50629 /* Pods-GDApi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F9824B1E2E4D3EFCA6DE213116A39C /* Pods-GDApi-dummy.m */; };
-		92D82B203BC112BC99C74089E13FB50E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CF1435D4AC4EB8B7B7992C46460A3A72 /* Pods-TunnlMobileAds-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 313A13D64D4EB089073595098CEB7918 /* Pods-TunnlMobileAds-dummy.m */; };
+		E72D4E3166511D94FE08FCA37139FB5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		12C700E05C964A1E4157A51C9A1DE3D4 /* Pods-GDApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDApi.release.xcconfig"; sourceTree = "<group>"; };
-		21F5F42C73F1AE77F9664FF54941D4B3 /* Pods-GDApi-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GDApi-resources.sh"; sourceTree = "<group>"; };
+		313A13D64D4EB089073595098CEB7918 /* Pods-TunnlMobileAds-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TunnlMobileAds-dummy.m"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		85B0D9C48EC45BCD3CB2CF6ACD80A43D /* Pods-GDApi-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GDApi-acknowledgements.plist"; sourceTree = "<group>"; };
+		78F35A37C761E596A0B09E7EED454449 /* Pods-TunnlMobileAds-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TunnlMobileAds-acknowledgements.markdown"; sourceTree = "<group>"; };
+		875FA7FC7537D996C27B93691BC8F084 /* Pods-TunnlMobileAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TunnlMobileAds.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A3D6BC386DDA4FD29D3CA212CC88F40F /* Pods-GDApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GDApi.debug.xcconfig"; sourceTree = "<group>"; };
-		AB8D225049163DD9AEB05F8D3D4A5E6F /* libPods-GDApi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-GDApi.a"; path = "libPods-GDApi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4355C7149D640EBEA90039A423885B7 /* Pods-GDApi-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GDApi-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B5F9824B1E2E4D3EFCA6DE213116A39C /* Pods-GDApi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GDApi-dummy.m"; sourceTree = "<group>"; };
+		BFC83C33BD2B28A01E5927D90548DCA8 /* Pods-TunnlMobileAds-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TunnlMobileAds-resources.sh"; sourceTree = "<group>"; };
+		C702A4F5ED44847E560A9D4B495C0B5D /* Pods-TunnlMobileAds-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TunnlMobileAds-acknowledgements.plist"; sourceTree = "<group>"; };
 		F87BBE855D70C2F87C02A1CCA30E262D /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		FCBA93667B782753F99254CEC0FB7740 /* Pods-TunnlMobileAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TunnlMobileAds.release.xcconfig"; sourceTree = "<group>"; };
+		FF63AA32F8FEB15FA1FA893CD57FF01A /* libPods-TunnlMobileAds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TunnlMobileAds.a"; path = "libPods-TunnlMobileAds.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B8BB55A4D52F51F4D05D14B15C9E8AB0 /* Frameworks */ = {
+		DE44DDBC039294DEFC0F24690AF7B8A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92D82B203BC112BC99C74089E13FB50E /* Foundation.framework in Frameworks */,
+				E72D4E3166511D94FE08FCA37139FB5F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		154CE062FF892F555DB2BB4CE0558B0A /* Pods-GDApi */ = {
-			isa = PBXGroup;
-			children = (
-				B4355C7149D640EBEA90039A423885B7 /* Pods-GDApi-acknowledgements.markdown */,
-				85B0D9C48EC45BCD3CB2CF6ACD80A43D /* Pods-GDApi-acknowledgements.plist */,
-				B5F9824B1E2E4D3EFCA6DE213116A39C /* Pods-GDApi-dummy.m */,
-				21F5F42C73F1AE77F9664FF54941D4B3 /* Pods-GDApi-resources.sh */,
-				A3D6BC386DDA4FD29D3CA212CC88F40F /* Pods-GDApi.debug.xcconfig */,
-				12C700E05C964A1E4157A51C9A1DE3D4 /* Pods-GDApi.release.xcconfig */,
-			);
-			name = "Pods-GDApi";
-			path = "Target Support Files/Pods-GDApi";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				820FBBDA65C5B1A6A4C379A893C27235 /* Pods */,
-				FC44E0AC0C6247E827922BFE7F9630B2 /* Products */,
-				C73F8876A6756B77797D849E406F12DB /* Targets Support Files */,
+				AE210A501C40E8DD05F943E9D54C56ED /* Products */,
+				EF30C49DF004CFBF1E717DA83431D472 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +63,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AE210A501C40E8DD05F943E9D54C56ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF63AA32F8FEB15FA1FA893CD57FF01A /* libPods-TunnlMobileAds.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,20 +79,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C73F8876A6756B77797D849E406F12DB /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				154CE062FF892F555DB2BB4CE0558B0A /* Pods-GDApi */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
 				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		D7627B55C1BBED995FD8DD423E1EA881 /* Pods-TunnlMobileAds */ = {
+			isa = PBXGroup;
+			children = (
+				78F35A37C761E596A0B09E7EED454449 /* Pods-TunnlMobileAds-acknowledgements.markdown */,
+				C702A4F5ED44847E560A9D4B495C0B5D /* Pods-TunnlMobileAds-acknowledgements.plist */,
+				313A13D64D4EB089073595098CEB7918 /* Pods-TunnlMobileAds-dummy.m */,
+				BFC83C33BD2B28A01E5927D90548DCA8 /* Pods-TunnlMobileAds-resources.sh */,
+				875FA7FC7537D996C27B93691BC8F084 /* Pods-TunnlMobileAds.debug.xcconfig */,
+				FCBA93667B782753F99254CEC0FB7740 /* Pods-TunnlMobileAds.release.xcconfig */,
+			);
+			name = "Pods-TunnlMobileAds";
+			path = "Target Support Files/Pods-TunnlMobileAds";
 			sourceTree = "<group>";
 		};
 		E91D6015731707498AAA5817D350B87B /* Google-Mobile-Ads-SDK */ = {
@@ -110,31 +110,31 @@
 			path = "Google-Mobile-Ads-SDK";
 			sourceTree = "<group>";
 		};
-		FC44E0AC0C6247E827922BFE7F9630B2 /* Products */ = {
+		EF30C49DF004CFBF1E717DA83431D472 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB8D225049163DD9AEB05F8D3D4A5E6F /* libPods-GDApi.a */,
+				D7627B55C1BBED995FD8DD423E1EA881 /* Pods-TunnlMobileAds */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2886E652889F15556A60A96EF64989D0 /* Pods-GDApi */ = {
+		35F74A3B0FC4E26A2F91E9DD87C5B19E /* Pods-TunnlMobileAds */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 544DB4D3E64CDEDD9CAC4125713184D8 /* Build configuration list for PBXNativeTarget "Pods-GDApi" */;
+			buildConfigurationList = 053C2DADD10BFBF3FEEF522CB42F76FF /* Build configuration list for PBXNativeTarget "Pods-TunnlMobileAds" */;
 			buildPhases = (
-				AA4966D3CA857351E33BABC40B725A9F /* Sources */,
-				B8BB55A4D52F51F4D05D14B15C9E8AB0 /* Frameworks */,
+				E6A3463340028CBA5EA320158717E187 /* Sources */,
+				DE44DDBC039294DEFC0F24690AF7B8A8 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Pods-GDApi";
-			productName = "Pods-GDApi";
-			productReference = AB8D225049163DD9AEB05F8D3D4A5E6F /* libPods-GDApi.a */;
+			name = "Pods-TunnlMobileAds";
+			productName = "Pods-TunnlMobileAds";
+			productReference = FF63AA32F8FEB15FA1FA893CD57FF01A /* libPods-TunnlMobileAds.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -154,30 +154,30 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = FC44E0AC0C6247E827922BFE7F9630B2 /* Products */;
+			productRefGroup = AE210A501C40E8DD05F943E9D54C56ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2886E652889F15556A60A96EF64989D0 /* Pods-GDApi */,
+				35F74A3B0FC4E26A2F91E9DD87C5B19E /* Pods-TunnlMobileAds */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA4966D3CA857351E33BABC40B725A9F /* Sources */ = {
+		E6A3463340028CBA5EA320158717E187 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83ECFC7344DF87AFC1B8EEAAD6C50629 /* Pods-GDApi-dummy.m in Sources */,
+				CF1435D4AC4EB8B7B7992C46460A3A72 /* Pods-TunnlMobileAds-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6AD2D3A29408530AC246446B1491FF74 /* Debug */ = {
+		64EF2DEC1EB574F08F229BF727A8A408 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3D6BC386DDA4FD29D3CA212CC88F40F /* Pods-GDApi.debug.xcconfig */;
+			baseConfigurationReference = FCBA93667B782753F99254CEC0FB7740 /* Pods-TunnlMobileAds.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -192,8 +192,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -250,9 +251,9 @@
 			};
 			name = Release;
 		};
-		C4616C8949CA9E0BA37418C96BB54038 /* Release */ = {
+		C09034E82B061517F24C4876575063A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12C700E05C964A1E4157A51C9A1DE3D4 /* Pods-GDApi.release.xcconfig */;
+			baseConfigurationReference = 875FA7FC7537D996C27B93691BC8F084 /* Pods-TunnlMobileAds.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -267,9 +268,8 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Debug;
 		};
 		E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -334,20 +334,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		053C2DADD10BFBF3FEEF522CB42F76FF /* Build configuration list for PBXNativeTarget "Pods-TunnlMobileAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09034E82B061517F24C4876575063A8 /* Debug */,
+				64EF2DEC1EB574F08F229BF727A8A408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E4B68EE12B21C47CB798D9B1ECA6D7A7 /* Debug */,
 				B254DAA6CF0CE39F4A3D11B90A7E059A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		544DB4D3E64CDEDD9CAC4125713184D8 /* Build configuration list for PBXNativeTarget "Pods-GDApi" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6AD2D3A29408530AC246446B1491FF74 /* Debug */,
-				C4616C8949CA9E0BA37418C96BB54038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

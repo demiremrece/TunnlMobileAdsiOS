@@ -22,6 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		5788E8E56D85BFCA57448041 /* libPods-TunnlMobileAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A0D37490E397BD667933534 /* libPods-TunnlMobileAds.a */; };
 		7113020720A05F5900D50870 /* TunnlAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 7113020620A05F5900D50870 /* TunnlAds.h */; };
 		7113020920A05F6E00D50870 /* TunnlAds.m in Sources */ = {isa = PBXBuildFile; fileRef = 7113020820A05F6E00D50870 /* TunnlAds.m */; };
 		7175CF41203705C200BF5131 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 7175CF3F203705C200BF5131 /* Reachability.h */; };
@@ -66,10 +67,12 @@
 /* Begin PBXFileReference section */
 		2D2E265868BC5783BA7AA0B2 /* Pods-GDApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDApi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GDApi/Pods-GDApi.debug.xcconfig"; sourceTree = "<group>"; };
 		377F5A1F2C84CB97BF6AE3E1 /* Pods-GDApi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GDApi.release.xcconfig"; path = "Pods/Target Support Files/Pods-GDApi/Pods-GDApi.release.xcconfig"; sourceTree = "<group>"; };
+		4A0D37490E397BD667933534 /* libPods-TunnlMobileAds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TunnlMobileAds.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7113020620A05F5900D50870 /* TunnlAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TunnlAds.h; sourceTree = "<group>"; };
 		7113020820A05F6E00D50870 /* TunnlAds.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TunnlAds.m; sourceTree = "<group>"; };
 		7175CF3F203705C200BF5131 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		7175CF40203705C200BF5131 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		7DD51947AE4B6E4821E8DF97 /* Pods-TunnlMobileAds.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TunnlMobileAds.release.xcconfig"; path = "Pods/Target Support Files/Pods-TunnlMobileAds/Pods-TunnlMobileAds.release.xcconfig"; sourceTree = "<group>"; };
 		C33AF7521E1BEABE00D4FE87 /* libTunnlMobileAds.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTunnlMobileAds.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C33AF7551E1BEABE00D4FE87 /* TunnlApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TunnlApi.h; sourceTree = "<group>"; };
 		C33AF7E51E1D000900D4FE87 /* AdStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdStream.h; sourceTree = "<group>"; };
@@ -82,6 +85,7 @@
 		C33AF7EC1E1D000900D4FE87 /* TunnlAdSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TunnlAdSize.m; sourceTree = "<group>"; };
 		C33AF7ED1E1D000900D4FE87 /* TunnlAlignment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TunnlAlignment.h; sourceTree = "<group>"; };
 		C33AF7EE1E1D000900D4FE87 /* TunnlAlignment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TunnlAlignment.m; sourceTree = "<group>"; };
+		DE440149A5419D081AAA717D /* Pods-TunnlMobileAds.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TunnlMobileAds.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TunnlMobileAds/Pods-TunnlMobileAds.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5788E8E56D85BFCA57448041 /* libPods-TunnlMobileAds.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +143,7 @@
 		C3C6F18C1F7B83B300391C19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A0D37490E397BD667933534 /* libPods-TunnlMobileAds.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			children = (
 				2D2E265868BC5783BA7AA0B2 /* Pods-GDApi.debug.xcconfig */,
 				377F5A1F2C84CB97BF6AE3E1 /* Pods-GDApi.release.xcconfig */,
+				DE440149A5419D081AAA717D /* Pods-TunnlMobileAds.debug.xcconfig */,
+				7DD51947AE4B6E4821E8DF97 /* Pods-TunnlMobileAds.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -245,7 +253,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GDApi/Pods-GDApi-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TunnlMobileAds/Pods-TunnlMobileAds-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C33AF7601E1BEBF300D4FE87 /* ShellScript */ = {
@@ -285,7 +293,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GDApi-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TunnlMobileAds-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -426,7 +434,7 @@
 		};
 		C33AF75C1E1BEABE00D4FE87 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D2E265868BC5783BA7AA0B2 /* Pods-GDApi.debug.xcconfig */;
+			baseConfigurationReference = DE440149A5419D081AAA717D /* Pods-TunnlMobileAds.debug.xcconfig */;
 			buildSettings = {
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = FKJ4632WST;
@@ -446,7 +454,7 @@
 		};
 		C33AF75D1E1BEABE00D4FE87 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 377F5A1F2C84CB97BF6AE3E1 /* Pods-GDApi.release.xcconfig */;
+			baseConfigurationReference = 7DD51947AE4B6E4821E8DF97 /* Pods-TunnlMobileAds.release.xcconfig */;
 			buildSettings = {
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = FKJ4632WST;
