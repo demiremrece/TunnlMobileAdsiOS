@@ -48,6 +48,7 @@ int H_Banner;
     
     if(eventlistener != nil){
         [self setDelegate:eventlistener];
+        [eventDelegate dispatchEvent:API_IS_READY withData:nil];
     }
     return self;
 }
