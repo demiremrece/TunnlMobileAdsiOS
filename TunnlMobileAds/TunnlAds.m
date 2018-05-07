@@ -34,8 +34,6 @@ TunnlAdDelegate* delegate;
     
     if(status == NotReachable)
     {
-        [self initTunnlApi];
-        
         if([self adStream].delegate != nil){
             NSArray *keys = [NSArray arrayWithObjects:@"error", nil];
             NSArray *objects = [NSArray arrayWithObjects:@"API cannot connect to internet. Please check the network connection.", nil];
@@ -45,6 +43,9 @@ TunnlAdDelegate* delegate;
             
             [[self adStream].delegate dispatchEvent:@"onAPINotReady" withData:eventData];
         }
+    }
+    else{
+        [self initTunnlApi];
     }
 }
 
